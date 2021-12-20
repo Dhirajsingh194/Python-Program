@@ -1,0 +1,9 @@
+#Display Non-Column Using Pandas
+
+#file2 is data frame which has EDA a column
+file2=file1.EDA
+
+#Display Column data where data is not null
+file3=file2.dropna()
+
+file3
